@@ -1,0 +1,21 @@
+Pseudo code:
+-Create dictionary to reference pairs of logins/passwords
+-Prompt user to input a login and a password
+-If users login/password input matches that from the dictionary pair, print a login successful message
+-If users login/password input does not match that from the dictionary pairs, print a try again message
+-If user fails 5 times, break their mental with a disheartening message
+
+#!/usr/bin/python3
+
+loginDict = {"root":"root","root":"spacejam","admin","braveheart"}
+
+userInput = ("Please type your login and password:")
+    user = input("What is your username?")
+    password = input("What is your password")
+if userInput = (loginDict):
+    print("Logged in successfully")
+    else:
+        print("Login failed, Please try again")
+        count+= 1
+        if count == 5:
+            print("Nice try nerd, Can't get into this login")

@@ -1,0 +1,23 @@
+Pseudo code
+-Create list for usernames uList
+-Create names for passwords pList
+-Prompt user for login
+-If users input matches login in uList, ask for password
+-If users input matches password in pList, Give successful login message
+-If users input does not match login or password in uList or pList, give error message demeaning them
+
+#!/usr/bin/python3
+
+uList = ["root","admin"]
+pList = ["password","Spacejam","Braveheart"]
+
+userInput = ("Please enter your login")
+if userInput = (uList(0,1))
+    userInput = ("Please enter your password")
+        if userInput = (pList(0,1,2)
+        print("Login successful")
+        else:
+            print("Please try again")
+            count+= 1
+            if count == 5:
+                print("You have been unsuccessful 5 times noob. Nice try.")

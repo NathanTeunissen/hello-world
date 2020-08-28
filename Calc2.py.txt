@@ -1,0 +1,28 @@
+Pseudo code:
+-Say "Basic calculator 2"
+-Prompt user to select 2 numbers
+-Prompt user to select addition, subtraction, multiplication, or division
+-Print out answer based on selection
+-If user doesnt select the proper selection, Give them an error message
+
+#!/usr/bin/python3
+print("Basic Calculator 2)
+userInput =("Please select two numbers")
+userInput =(int(x))
+userInput =(int(y)) 
+
+choice = input("Addition","Subtraction","Multiplication", or "Division" ('add','sub','mult','div')? ")
+if choice == "add":
+    print("You chose addition")
+    print("Your answer is:", x + y)
+elif choice =="sub":
+    print("You chose subtraction")
+    print("Your answer is:", x - y)
+elif choice =="mult":
+    print("You have chosen multiplication")
+    print("Your answer is:", x * 7)
+elif choice =="div":
+    print("You have chosen division")
+    print("Your answer is:", x / y)
+else:
+    print("Please only type add, sub, mult, or div")
